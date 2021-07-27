@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'kalyan-test-app-service-springboot-hello-world'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f7e0e0fce3af4db9aeb13365952ea9e5 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_13acd89f5d2349af9ac211026901498e }}
         package: '*.jar'
