@@ -16,7 +16,12 @@ public class TestController {
 	
 	@GetMapping("test")
 	public String test() {
-		return "Hello Kalyan";
+		return "Hello Kalyan. This is version 2";
+	}
+	
+	@GetMapping("test2")
+	public String test2() {
+		return "Hello Kalyan2";
 	}
 
 	@PostMapping("testpost")
